@@ -17,3 +17,5 @@ build/
 # Artifacts
 *.ps
 *.svg
+.jupyter/
+data/
