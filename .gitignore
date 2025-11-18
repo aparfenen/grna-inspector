@@ -14,8 +14,14 @@ build/
 
 # Streamlit
 .streamlit/
+
 # Artifacts
 *.ps
 *.svg
 .jupyter/
+
+# Data
 data/
+data_dump/
+notes_dump/
+
