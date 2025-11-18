@@ -1,0 +1,27 @@
+# Core scientific computing
+numpy>=1.21.0
+pandas>=1.3.0
+scipy>=1.7.0
+
+# Bioinformatics
+biopython>=1.79
+
+# Machine Learning
+scikit-learn>=1.0.0
+xgboost>=1.5.0
+
+# Deep Learning (optional, for future CNN-LSTM models)
+torch>=1.10.0
+torchvision>=0.11.0
+
+# Visualization
+matplotlib>=3.4.0
+seaborn>=0.11.0
+
+# Utilities
+joblib>=1.0.0
+tqdm>=4.62.0
+
+# Jupyter
+jupyter>=1.0.0
+ipykernel>=6.0.0
