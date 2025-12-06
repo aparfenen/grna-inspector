@@ -1,0 +1,37 @@
+{
+  "model_type": "XGBoost",
+  "training_date": "2025-12-06T15:25:54.887022",
+  "n_features": 120,
+  "train_size": 1621,
+  "val_size": 347,
+  "test_size": 348,
+  "test_metrics": {
+    "accuracy": 0.9454022988505747,
+    "precision": 0.9234972677595629,
+    "recall": 0.9712643678160919,
+    "f1": 0.9467787114845938,
+    "roc_auc": 0.9882415114281939,
+    "avg_precision": 0.9863701934702598
+  },
+  "best_params": {
+    "subsample": 0.9,
+    "n_estimators": 100,
+    "min_child_weight": 1,
+    "max_depth": 4,
+    "learning_rate": 0.2,
+    "gamma": 0,
+    "colsample_bytree": 0.9
+  },
+  "top_10_features": [
+    "anchor_AC_content",
+    "anchor_C_freq",
+    "init_4_A_count",
+    "dinuc_AC_freq",
+    "anchor_GC_freq",
+    "guide_C_count",
+    "n_homopolymers_3plus",
+    "first_G_pos_rel",
+    "dinuc_TT_freq",
+    "dinuc_bias_AT"
+  ]
+}
