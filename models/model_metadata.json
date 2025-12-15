@@ -1,34 +1,34 @@
 {
   "model_type": "XGBoost",
-  "training_date": "2025-12-08T20:08:16.403780",
+  "training_date": "2025-12-15T16:23:03.045693",
   "n_features": 127,
-  "train_size": 1621,
-  "val_size": 347,
-  "test_size": 348,
+  "train_size": 1618,
+  "val_size": 343,
+  "test_size": 354,
   "test_metrics": {
-    "accuracy": 0.9482758620689655,
-    "precision": 0.9285714285714286,
-    "recall": 0.9712643678160919,
-    "f1": 0.949438202247191,
-    "roc_auc": 0.9888360417492403
+    "accuracy": 0.9548022598870056,
+    "precision": 0.9565217391304348,
+    "recall": 0.9565217391304348,
+    "f1": 0.9565217391304348,
+    "roc_auc": 0.9861572890025576
   },
   "best_params": {
-    "learning_rate": 0.1,
+    "learning_rate": 0.15,
     "max_depth": 4,
-    "min_child_weight": 5,
-    "n_estimators": 200,
+    "min_child_weight": 1,
+    "n_estimators": 100,
     "subsample": 0.8
   },
   "top_10_features": [
     "anchor_C_freq",
-    "anchor_AC_content",
     "init_4_A_count",
-    "global_A_freq",
-    "dinuc_AC_freq",
+    "anchor_AC_content",
+    "global_GC_content",
+    "grna_signature_count",
+    "max_homopolymer",
     "guide_C_count",
-    "init_has_AWAHH",
     "first_A_pos_rel",
-    "first_G_pos_rel",
-    "n_homopolymers_3plus"
+    "dinuc_AC_freq",
+    "init_4_C_count"
   ]
 }
